@@ -14,8 +14,8 @@
 		</div>
 		<div class="content-large">
 			Bio
+			<hr>
 			<ul>
-				<hr>
 				<li>I am currently a junior at WSSU, pursuing my Bachelors in IT</li>
 				<li>I am 25 years old, born and raised in NC</li>
 				<li>I am the youngest of 3 brothers</li>
@@ -26,11 +26,32 @@
 		<div class="content-large">
 			Education
 			<hr>
+			Winston-Salem State University, Winston-Salem, NC
+			<ul>
+				<li> Bachelor of Science, Information Technology
+					<ul style="list-style-type:square">
+					<li>Estimated Graduation: December 2022</li>
+					<li>Dean’s List: 2018-2020</li>
+					<li>GPA: 4.0</li>
+					</ul>
+				</li>
+				<br>
+			</ul>
+			<ul>
+				Davidson County Community College, Lexington, NC
+				<li> Associates of Applied Sciences, Information Technology / Emphasis in Networking and Technology
+					<ul style="list-style-type:square">
+					<li>Estimated Graduation: December 2022</li>
+					<li>Dean's List: 2020-Present</li>
+					<li>GPA 3.96</li>
+					</ul>
+				</li>	
+			</ul>
 		</div>
-		<div class="content-small">
-			picture
+		<div class="content-small-1">
+			<img src="Profile.jpg" alt="Selfie" style="width:200px;height:200px;">
 		</div>
-		<div class="content-small">
+		<div class="content-small-2">
 			picture
 		</div>
 		<div class = "footer">
