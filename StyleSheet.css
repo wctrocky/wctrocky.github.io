@@ -1,5 +1,6 @@
 body {
 	margin:0;
+	background-color: #e6ebef;
 }
 
 .container{
@@ -42,7 +43,4 @@ body {
 .footer{
 	grid-column-start: 1;
 	grid-column-end: 4;
-}
-body {
-    background-color: #e6ebef;
 }
