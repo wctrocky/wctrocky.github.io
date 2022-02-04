@@ -9,14 +9,29 @@
 
 <body>
 	<div class= "container">
-		<div class = "header">
-			William Talbert
+		<div class="header">
+			<strong>William Talbert</strong>
 		</div>
-		<div class "content-large">
-			Testing
+		<div class="content-large">
+			Bio
+			<ul>
+				<hr>
+				<li>I am currently a junior at WSSU, pursuing my Bachelors in IT</li>
+				<li>I am 25 years old, born and raised in NC</li>
+				<li>I am the youngest of 3 brothers</li>
+				<li>This will be my second degree when i graduate as i have an associates in Networking & Cyber security</li>
+				<li>Can't wait to work with you all these coming weeks!</li>
+			</ul>
 		</div>
-		<div class "content-large">
-			Testing
+		<div class="content-large">
+			Education
+			<hr>
+		</div>
+		<div class="content-small">
+			picture
+		</div>
+		<div class="content-small">
+			picture
 		</div>
 		<div class = "footer">
 			<a href="https://github.com/wctrocky">Find me on GitHub	</a>
