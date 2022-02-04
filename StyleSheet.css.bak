@@ -22,3 +22,11 @@ body {
 	border:1px solid #000000;
 	
 }
+.header{
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+.content-large{
+	grid -row-start: 2;
+	grid-row-end: span 2;
+}
