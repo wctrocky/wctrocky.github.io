@@ -15,6 +15,10 @@
 		<div class="content-large">
 			Bio
 			<hr>
+			<p> Hello! Nice to meet you all! My name is William Talbert, I am 25 years old and i was born and raised in NC.
+			I have an associates in Networking & Cyber security, and I am currently a junior at WSSU, pursuing my Bachelors in IT.
+			<br>
+			A little about me, is i am the youngest of 3 brothers
 			<ul>
 				<li>I am currently a junior at WSSU, pursuing my Bachelors in IT</li>
 				<li>I am 25 years old, born and raised in NC</li>
@@ -41,9 +45,9 @@
 			<ul>
 				<li> Associates of Applied Sciences, Information Technology / Emphasis in Networking and Technology
 					<ul style="list-style-type:square">
-					<li>Estimated Graduation: December 2022</li>
+					<li>Estimated Graduation: Fall 2023</li>
 					<li>Dean's List: 2020-Present</li>
-					<li>GPA 3.96</li>
+					<li>GPA 3.97</li>
 					</ul>
 				</li>	
 			</ul>
@@ -60,21 +64,6 @@
 			<a href="https://www.linkedin.com/in/william-talbert-3795a220a">Find me on LinkedIn</a>
 		</div>
 	</div>
-    <h1>William Talbert</h1>
-	<img src="Profile.jpg" alt="Selfie" style="width:100px;height:100px;">
-	<p>This is what an ordered list looks like:</p>
-
-	<ol>
-	<li>I am currently a junior at WSSU, pursuing my Bachelors in IT</li>
-	<li>I am 25 years old, born and raised in NC</li>
-	<li>I am the youngest of 3 brothers</li>
-	<li>This will be my second degree when i graduate as i have an associates in Networking & Cyber security</li>
-    <li>Can't wait to work with you all these coming weeks!</li>
-	</ol>
-	<p> My Socials </p>
-	<a href="https://github.com/wctrocky">Find me on GitHub	</a>
-	<a href="https://www.linkedin.com/in/william-talbert-3795a220a">Find me on Linkedin</a>
-	<p> My hobbies include, powerlifting, fishing, hiking, camping, traveling, and reading.</p>
 </body>
 
 </html>
