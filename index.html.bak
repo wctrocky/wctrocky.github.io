@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 
 <head>
     <meta charset="utf-8">
@@ -45,6 +45,9 @@
 					</ul>
 				</li>	
 			</ul>
+			<br>
+			Skills
+			<hr>
 		</div>
 		<div class="content-small-1">
 			<img src="Profile.jpg" alt="Selfie" style="width:200px;height:200px;">
