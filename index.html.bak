@@ -18,7 +18,7 @@
 			<p> Hello! Nice to meet you all! My name is William Talbert, I am 25 years old and i was born and raised in NC.
 			I have an associates in Networking & Cyber security, and I am currently a junior at WSSU, pursuing my Bachelors in IT.
 			<br><br>
-			A little about me, is I am the youngest of three brothers,
+			A little about me, is I am the youngest of three brothers, 
 			and some of my favorite hobbies include, fishing, hiking, camping, powerlifting, and reading!
 		</div>
 		<div class="content-large">
@@ -56,9 +56,11 @@
 			Test
 		</div>
 		<div class = "footer">
-			<a href="https://github.com/wctrocky">Find me on GitHub	</a>
+			<a href="https://github.com/wctrocky" target="_blank">
+			<img alt="Github" src="github.png" width="50" height="50"></a>
 			&nbsp;&nbsp;&nbsp;
-			<a href="https://www.linkedin.com/in/william-talbert-3795a220a">Find me on LinkedIn</a>
+			<a href="https://www.linkedin.com/in/william-talbert-3795a220a" target="_blank">
+			<img alt="LinkedIn" src="LinkedIn.jpeg" width="50" height="50"></a>
 		</div>
 	</div>
 	<footer>
