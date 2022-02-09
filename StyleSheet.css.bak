@@ -4,7 +4,7 @@ body {
 }
 
 .container{
-	width: 100vw;
+	width: 99vw;
 	height: 100vh;
 	font-size: 18px;
 	
@@ -26,6 +26,8 @@ body {
 .header{
 	grid-column-start: 1;
 	grid-column-end: 4;
+	font-size: 120%;
+	text-align: center;
 }
 .content-large{
 	grid-row-start: 2;
@@ -39,6 +41,15 @@ body {
 .content-small-2{
 	grid-row-start: 3;
 	grid-row-end: 3;
+}
+table, th, td {
+  border: 1px;
+    margin-left: auto;
+	margin-right: auto;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer{
 	grid-column-start: 1;

@@ -29,9 +29,9 @@
 			<ul>
 				<li> Bachelor of Science, Information Technology
 					<ul style="list-style-type:square">
-					<li>Estimated Graduation: December 2022</li>
-					<li>Dean’s List: 2018-2020</li>
-					<li>GPA: 4.0</li>
+					<li>Estimated Graduation: December 2023</li>
+					<li>Dean’s List: 2020-2022</li>
+					<li>GPA: 3.97</li>
 					</ul>
 				</li>
 			</ul>
@@ -66,7 +66,11 @@
 			</ul>
 		</div>
 		<div class="content-small-1">
-			<img src="Profile.jpg" alt="Selfie" style="width:200px;height:200px;">
+			<table>
+				<tr>
+					<td><img src="Profile.jpg" width = "600" height = "600"
+					alt = "Will Talbert"></td>
+			</table>
 		</div>
 		<div class="content-small-2">
 			<strong> Certifications</strong>
