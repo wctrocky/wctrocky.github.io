@@ -15,8 +15,9 @@
 		<div class="content-large">
 			Bio
 			<hr>
-			<p> Hello! Nice to meet you all! My name is William Talbert, I am 25 years old and i was born and raised in NC.
-			I have an associates in Networking & Cyber security, and I am currently a junior at WSSU, pursuing my Bachelors in IT.
+			<p> Hello! Nice to meet you all! My name is William Talbert, I am 25 years old and I was born and raised in NC.
+			I have an associates in Networking & Cyber security, and I am currently a junior at Winston Salem State University,
+			pursuing my Bachelors in IT.
 			<br><br>
 			A little about me, is I am the youngest of three brothers, 
 			and some of my favorite hobbies include, fishing, hiking, camping, powerlifting, and reading!
@@ -39,28 +40,49 @@
 			<ul>
 				<li> Associates of Applied Sciences, Information Technology / Emphasis in Networking and Technology
 					<ul style="list-style-type:square">
-					<li>Estimated Graduation: Fall 2023</li>
-					<li>Dean's List: 2020-Present</li>
-					<li>GPA 3.97</li>
+					<li>Graduation May 2020</li>
+					<li>Dean's List: 2018-2020</li>
+					<li>GPA 4.0</li>
 					</ul>
 				</li>	
 			</ul>
 			<br>
+			Relevant Coursework
+			<hr>
+			<ul>
+				<li>Java Programming</li> 
+				<li>HTML5 & CSS</li>
+				<li>Visual Basic Programming</li>
+				<li>Cisco Router Configuration & Setup</li>
+			</ul>
+			<br>
 			Skills
 			<hr>
+			<ul>
+				<li>Exceptional listener and communicator</li> 
+				<li>Resourceful team player who excels at building trusting relationship</li>
+				<li>Highly motivated self-starter who takes initiative</li>
+				<li>Computer literate performer with extensive software proficiency</li>
+			</ul>
 		</div>
 		<div class="content-small-1">
 			<img src="Profile.jpg" alt="Selfie" style="width:200px;height:200px;">
 		</div>
 		<div class="content-small-2">
-			Test
+			<strong> Certifications</strong>
+			<hr>
+			<ul>
+				<li>Cisco Security Certificate, 2020</li>
+				<li>Cisco Networking Certificate, 2020 </li>
+				<li>Personal Computers Certificate, 2020</li>
+				<li>A Beginner's Guide to Open Source Software Development (LFD102), 2021</li>
 		</div>
 		<div class = "footer">
 			<a href="https://github.com/wctrocky" target="_blank">
 			<img alt="Github" src="github.png" width="50" height="50"></a>
 			&nbsp;&nbsp;&nbsp;
 			<a href="https://www.linkedin.com/in/william-talbert-3795a220a" target="_blank">
-			<img alt="LinkedIn" src="LinkedIn.jpg" width="50" height="50"></a>
+			<img alt="LinkedIn" src="LinkedIN.jpg" width="50" height="50"></a>
 		</div>
 	</div>
 	<footer>
