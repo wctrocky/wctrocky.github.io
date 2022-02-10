@@ -3,11 +3,15 @@
 
 <head>
     <meta charset="utf-8">
-    <title>William Talbert Port</title>
+    <title>William Talbert Portfolio</title>
     <link rel="stylesheet" href="StyleSheet.css">
 </head>
 
 <body>
+ <div class="topnav">
+	<a class="active" href="index.html">Home</a>
+	<a href="#contact">Contact</a>
+</div> 
 	<div class= "container">
 		<div class="header">
 			<strong>William Talbert</strong>
@@ -80,6 +84,7 @@
 				<li>Cisco Networking Certificate, 2020 </li>
 				<li>Personal Computers Certificate, 2020</li>
 				<li>A Beginner's Guide to Open Source Software Development (LFD102), 2021</li>
+			</ul>
 		</div>
 		<div class = "footer">
 			<a href="https://github.com/wctrocky" target="_blank">
