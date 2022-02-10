@@ -10,7 +10,7 @@
 <body>
  <div class="topnav">
 	<a class="active" href="index.html">Home</a>
-	<a href="#contact">Contact</a>
+	<a href="contact.html">Contact</a>
 </div> 
 	<div class= "container">
 		<div class="header">
@@ -39,7 +39,6 @@
 					</ul>
 				</li>
 			</ul>
-			<br>
 			Davidson County Community College, Lexington, NC
 			<ul>
 				<li> Associates of Applied Sciences, Information Technology / Emphasis in Networking and Technology
@@ -50,7 +49,6 @@
 					</ul>
 				</li>	
 			</ul>
-			<br>
 			Relevant Coursework
 			<hr>
 			<ul>
