@@ -3,28 +3,24 @@
 
 <head>
     <meta charset="utf-8">
-    <title>William Talbert Portfolio</title>
+    <title>About me!</title>
     <link rel="stylesheet" href="StyleSheet.css">
 </head>
 
 <body>
  <div class="topnav">
 	<a class="active" href="index.html">Home</a>
-	<a href="#contact">Contact</a>
+	<a href="academics.html">Academics</a>
+	<a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true">Resume Copy</a>
+	<a href="traveling.html">Traveling</a>
+	<a href="contact.html">Contact Me</a>
 </div> 
 	<div class= "container">
 		<div class="header">
 			<strong>Contacting Me</strong>
 		</div>
 		<div class="content-large">
-			<strong>Interests</strong>
-			<hr>
-			<p> I have a passion for learning and involving myself in new and upcoming projects, as well as helping others.<br><br>
-			If the need arises I am more than happy to discuss potential projects or provide assistance if it is in my wheelhouse of expertise!<br><br>
-			Feel free to contact me at any of my available locations if needed.
-		</div>
-		<div class="content-large">
-			<strong>Contacts</strong>
+			<p style="display:inline"><strong>Contacts</strong></p>
 			<hr>
 			<p> My available hours for meetings are listed on <a href="https://calendly.com/wtalbert120/15min" target="_blank">calendly</a>
 			<br>
@@ -44,15 +40,11 @@
 			My current work experience is available on <a href="https://www.linkedin.com/in/william-talbert-3795a220a" target="_blank">LinkedIn</a>
 			</p>
 		</div>
-		<div class="content-small-1">
-			<table>
-				<tr>
-					<td><img src="Profile.jpg" width = "500" height = "500"
-					alt = "Will Talbert"></td>
-			</table>
+		<div class="content-small">
+			<img src="contact.jpg" width = "400" height = "400" alt = "Will Talbert">
 		</div>
 		<div class="content-small-2">
-			<strong> Favorite Quotes #1</strong>
+			<p style="display:inline"><strong> Favorite Quotes</strong></p>
 			<hr>
 			<p>
 			<em>Do not go where the path may lead, go instead where there is no path and leave a trail. – Ralph Waldo Emerson</em>

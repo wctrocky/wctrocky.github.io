@@ -4,9 +4,10 @@ body {
 }
 
 .container{
-	width: 90%;
-	height: 70%;
-	font-size: 20px;
+	width: 70vw;
+	height: 100vh;
+	font-size: 22px;
+	
 	margin-left: auto;
     margin-right: auto;
 	
@@ -25,6 +26,9 @@ body {
 	border:1px solid #000000;
 	
 }
+.content-small{
+  display: block;
+}
 .header{
 	grid-column-start: 1;
 	grid-column-end: 4;
@@ -33,27 +37,34 @@ body {
 }
 .content-large{
 	grid-row-start: 2;
-	grid-row-end: span 2;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 3;
 }
-.content-small-1{
+.content-medium{
 	grid-row-start: 2;
-	grid-row-end: 3;
-	
+	grid-row-end: 4;
+	grid-column-start: 2;
+	grid-column-end: 4;
 }
-.content-small-2{
-	grid-row-start: 3;
-	grid-row-end: 3;
+.content-medium-2{
+	grid-row-start: 2;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 2;
 }
 table, th, td {
-  border: 1px;
-  margin-left: auto;
-  margin-right: auto;
+	border: 1px solid black;
+	table-layout: fixed;
+	width:72%;
+	margin-left: auto;
+	margin-right: auto;
 }
 .footer{
 	grid-column-start: 1;
 	grid-column-end: 4;
+	font-size: 18px;
 	text-align: center;
-	
 }
 .topnav {
   background-color: #333;
@@ -64,7 +75,6 @@ table, th, td {
   top: 0;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -72,18 +82,29 @@ table, th, td {
   padding: 12px 14px;
   text-decoration: none;
   font-size: 18px;
-  
-
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Add a color to the active/current link */
 .topnav a.active {
   background-color: red;
   color: white;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.photoGrid {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+address {
+  display: block;
+  font-style: italic;
 }

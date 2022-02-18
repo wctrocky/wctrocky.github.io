@@ -3,108 +3,44 @@
 
 <head>
     <meta charset="utf-8">
-    <title>William Talbert Portfolio</title>
+    <title>About me!</title>
     <link rel="stylesheet" href="StyleSheet.css">
 </head>
 
 <body>
  <div class="topnav">
 	<a class="active" href="index.html">Home</a>
-	<a href="contact.html">Contact</a>
+	<a href="academics.html">Academics</a>
+	<a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true" target="_blank">Resume Copy</a>
+	<a href="traveling.html">Traveling</a>
+	<a href="contact.html">Contact Me</a>
 </div> 
 	<div class= "container">
 		<div class="header">
-			<strong>William Talbert</strong>
+			<strong>Welcome</strong>
 		</div>
 		<div class="content-large">
-			<strong>Bio</strong>
+			<p style="display:inline"><strong>Introduction</strong></p>
 			<hr>
 			<p> Hello! Nice to meet you all! My name is William Talbert, I am 25 years old and I was born and raised in NC.
-			I have an associates in Networking & Cyber security, and I am currently a junior at Winston Salem State University,
-			pursuing my Bachelors in IT.
-			<br><br>
-			A little about me, is I am the youngest of three brothers, 
-			and some of my favorite hobbies include, fishing, hiking, camping, powerlifting, and reading!
+			I have an associates in Networking & Cyber security, and i am now finishing my bachelors in IT at WSSU. I work part time doing IT at a plastic surgery company and i
+			am currently doing an internship for Major Leauge Hacking, you can check out my current resume on my  <a href="academics.html">Academics</a> page, or a copy of my resume under <a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true target="_blank"">Resume Copy</a></p>
+			
+			<p>A little about me, is I am the youngest of three brothers, with the three of us being 40, 27, and 25. I have one dog named cooper who is featured on the right, he just turned 4 this year!
+			Some of my favorite hobbies
+			include, reading hiking,traveling and taking fishing trips!</p>
+			
+			<p>I have also included some of my favorite photos from traveling around the US
+			under <a href="traveling.html">Traveling</a>.</p>
+			
+			<p>You can head over to my <a href="contact.html">Contact Me</a> page to see my points of contact &#38; availability for meetings!</p>
+			
 		</div>
-		<div class="content-large">
-			<strong>Education</strong>
-			<hr>
-			Winston-Salem State University, Winston-Salem, NC
-			<ul>
-				<li> Bachelor of Science, Information Technology
-					<ul style="list-style-type:square">
-					<li>Estimated Graduation: December 2023</li>
-					<li>Dean’s List: 2020-2022</li>
-					<li>GPA: 3.97</li>
-					</ul>
-				</li>
-			</ul>
-			Davidson County Community College, Lexington, NC
-			<ul>
-				<li> Associates of Applied Sciences, Information Technology / Emphasis in Networking and Technology
-					<ul style="list-style-type:square">
-					<li>Graduation May 2020</li>
-					<li>Dean's List: 2018-2020</li>
-					<li>GPA 4.0</li>
-					</ul>
-				</li>	
-			</ul>
-			<strong>Relevant Coursework</strong>
-			<hr>
-			<ul>
-				<li>Java Programming</li> 
-				<li>HTML5 & CSS</li>
-				<li>Visual Basic Programming</li>
-				<li>Cisco Router Configuration & Setup</li>
-			</ul>
-			<strong>Skills</strong>
-			<hr>
-			<ul>
-				<li>Exceptional listener and communicator</li> 
-				<li>Resourceful team player who excels at building trusting relationship</li>
-				<li>Highly motivated self-starter who takes initiative</li>
-				<li>Computer literate performer with extensive software proficiency</li>
-			</ul>
-			<strong> Certifications</strong>
-			<hr>
-			<ul>
-				<li>Cisco Security Certificate, 2020</li>
-				<li>Cisco Networking Certificate, 2020 </li>
-				<li>Personal Computers Certificate, 2020</li>
-				<li>A Beginner's Guide to Open Source Software Development (LFD102), 2021</li>
+		<div class="content-small">
+		<img src="home.jpg" width = "400" height = "400" alt = "Group photo" class="center">
 		</div>
-		<div class="content-small-1">
-			<table>
-				<tr>
-					<td><img src="Profile.jpg" width = "500" height = "500"
-					alt = "Will Talbert"></td>
-			</table>
-		</div>
-		<div class="content-small-2">
-			<strong>Experience</strong>
-			<hr>
-			Major League Hacking, New York, NY 
-			<ul>
-				<li>Internship</li>
-				<li>2021 - Present
-					<ul style="list-style-type:square">
-					<li>-----</li>
-					<li>-----</li>
-					<li>-----</li>
-					</ul>
-				</li>
-			</ul>
-			Salem Plastic Surgery Winston-Salem, NC
-			<ul>
-				<li>IT and Troubleshooting</li>
-				<li>2016 - Present
-					<ul style="list-style-type:square">
-					<li>Diagnose computer hardware problems</li>
-					<li>Troubleshoot computer software problems</li>
-					<li>Document appropriate troubleshoot in a stepwise fashion</li>
-					</ul>
-				</li>	
-			</ul>
+		<div class="content-small">
+		<img src="cooper.jpg" width = "400" height = "400" alt = "Small dog" class="center">
 		</div>
 		<div class = "footer">
 			<footer>

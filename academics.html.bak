@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="utf-8">
+    <title>About me!</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+</head>
+
+<body>
+ <div class="topnav">
+	<a class="active" href="index.html">Home</a>
+	<a href="academics.html">Academics</a>
+	<a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true">Resume Copy</a>
+	<a href="traveling.html">Traveling</a>
+	<a href="contact.html">Contact Me</a>
+</div> 
+	<div class= "container">
+		<div class="header">
+			<strong>Current Resume</strong>
+		</div>
+		<div class="content-large">
+			<p style="display:inline"><strong>Education</strong>
+			<hr>
+			Winston-Salem State University, Winston-Salem, NC
+			<ul>
+				<li> Bachelor of Science, Information Technology
+					<ul style="list-style-type:square">
+					<li>Estimated Graduation: December 2023</li>
+					<li>Dean’s List: 2020-2022</li>
+					<li>GPA: 3.97</li>
+					</ul>
+				</li>
+			</ul>
+			Davidson County Community College, Lexington, NC
+			<ul>
+				<li> Associates of Applied Sciences, Information Technology / Emphasis in Networking and Technology
+					<ul style="list-style-type:square">
+					<li>Graduation May 2020</li>
+					<li>Dean's List: 2018-2020</li>
+					<li>GPA 4.0</li>
+					</ul>
+				</li>	
+			</ul>
+			<strong>Experience</strong>
+			<hr>
+			Major League Hacking, Internet New York, NY 
+			<ul>
+				<li>Internship</li>
+				<li>2021 - Present
+					<ul style="list-style-type:square">
+					<li>Build &#38; design webpages & document commitments through github</li>
+					<li>Lead a team to develop &#38; host webpages through github pages</li>
+					</ul>
+				</li>
+			</ul>
+			Salem Plastic Surgery Winston-Salem, NC
+			<ul>
+				<li>IT and Troubleshooting</li>
+				<li>2016 - Present
+					<ul style="list-style-type:square">
+					<li>Diagnose computer hardware problems</li>
+					<li>Troubleshoot computer software problems</li>
+					<li>Document appropriate troubleshoot in a stepwise fashion</li>
+					</ul>
+				</li>	
+			</ul>
+			</p>
+			</div>
+		<div class="content-small">
+		<img src="Profile.jpg" width = "400" height = "400" alt = "Will Talbert" class="center">
+		</div>
+		<div class="content-small">
+					<strong>Relevant Coursework</strong>
+			<hr>
+			<ul>
+				<li>Java Programming</li> 
+				<li>HTML5 & CSS</li>
+				<li>Visual Basic Programming</li>
+				<li>Cisco Router Configuration & Setup</li>
+			</ul>
+			<strong>Skills</strong>
+			<hr>
+			<ul>
+				<li>Exceptional listener and communicator</li> 
+				<li>Resourceful team player who excels at building trusting relationship</li>
+				<li>Highly motivated self-starter who takes initiative</li>
+				<li>Computer literate performer with extensive software proficiency</li>
+			</ul>
+		</div>
+		<div class = "footer">
+			<footer>
+				<a href="https://github.com/wctrocky" target="_blank">
+				<img alt="Github" src="github.png" width="50" height="50"></a>
+				&nbsp;&nbsp;&nbsp;
+				<a href="https://www.linkedin.com/in/william-talbert-3795a220a" target="_blank">
+				<img alt="LinkedIn" src="LinkedIN.jpg" width="50" height="50"></a>
+				 <address>
+Written by <a href="mailto:webmaster@example.com">William Talbert</a>.<br>
+</address> 
+			</footer> 
+		</div>
+	</div>
+</body>
+
+</html>
