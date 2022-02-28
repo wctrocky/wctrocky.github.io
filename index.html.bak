@@ -22,9 +22,9 @@
 			localStorage.setItem("theme", theme);
         }
 		window.onload = _ =>
- toggleTheme(
-  localStorage.getItem("theme") || "StyleSheet.css"
- );
+			toggleTheme(
+			localStorage.getItem("theme") || "StyleSheet.css"
+		);
     </script>
 
 </head>
