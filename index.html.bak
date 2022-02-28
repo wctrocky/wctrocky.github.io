@@ -6,25 +6,19 @@
     <title>About me!</title>
     <link id="theme" rel="stylesheet" type="text/css" href="StyleSheet.css" />
     <script>
-        function toggleTheme() {
-            // Obtains an array of all <link>
-            // elements.
-            // Select your element using indexing.
-            var theme = document.getElementsByTagName('link')[0];
-  
-            // Change the value of href attribute 
-            // to change the css sheet.
-            if (theme.getAttribute('href') == 'StyleSheet.css') {
-                theme.setAttribute('href', 'Darkstyle.css');
-            } else {
-                theme.setAttribute('href', 'StyleSheet.css');
-            }
-			localStorage.setItem("theme", theme);
-        }
-		window.onload = _ =>
-			toggleTheme(
-			localStorage.getItem("theme") || "StyleSheet.css"
-		);
+function swapStyleSheet(sheet){
+  document.getElementById('theme').setAttribute('href', sheet);
+  localStorage.setItem("sheet", sheet);
+}
+function swapStyleSheet2(sheet){
+  document.getElementById('theme').setAttribute('href', sheet);
+  localStorage.setItem("sheet", sheet);
+}
+
+window.onload = _ =>
+ swapStyleSheet(
+  localStorage.getItem("sheet") || "StyleSheet.css"
+ );
     </script>
 
 </head>
@@ -36,7 +30,8 @@
 	<a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true" target="_blank">Resume Copy</a>
 	<a href="traveling.html">Traveling</a>
 	<a href="contact.html">Contact Me</a>
-	<span style = "position: relative; top: 10px; left: 20px;"><button onclick="toggleTheme()">Switch</button></span>
+	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet('Darkstyle.css')">Dark Mode</button></span>
+	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet('StyleSheet.css')">Light Mode</button></span>
 </div> 
 	<div class= "container">
 		<div class="header">
