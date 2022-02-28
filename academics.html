@@ -6,11 +6,25 @@
     <title>About me!</title>
     <link rel="stylesheet" href="StyleSheet.css">
 		<script>
-		function darkMode() {
-		var element = document.body;
-		element.classList.toggle("dark-mode");
-		}
-
+        function toggleTheme() {
+            // Obtains an array of all <link>
+            // elements.
+            // Select your element using indexing.
+            var theme = document.getElementsByTagName('link')[0];
+  
+            // Change the value of href attribute 
+            // to change the css sheet.
+            if (theme.getAttribute('href') == 'StyleSheet.css') {
+                theme.setAttribute('href', 'Darkstyle.css');
+            } else {
+                theme.setAttribute('href', 'StyleSheet.css');
+            }
+			localStorage.setItem("theme", theme);
+        }
+		window.onload = _ =>
+			toggleTheme(
+			localStorage.getItem("theme") || "StyleSheet.css"
+		);
 	</script>
 </head>
 
@@ -21,7 +35,7 @@
 	<a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true" target="_blank">Resume Copy</a>
 	<a href="traveling.html">Traveling</a>
 	<a href="contact.html">Contact Me</a>
-	<span style = "position: relative; top: 10px; left: 20px;"><button onclick="darkMode()">Toggle dark mode</button></span>
+	<span style = "position: relative; top: 10px; left: 20px;"><button onclick="toggleTheme()">Switch</button></span>
 </div> 
 	<div class= "container">
 		<div class="header">

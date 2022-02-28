@@ -4,7 +4,29 @@
 <head>
     <meta charset="utf-8">
     <title>About me!</title>
-    <link rel="stylesheet" href="StyleSheet.css">
+    <link id="theme" rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <script>
+        function toggleTheme() {
+            // Obtains an array of all <link>
+            // elements.
+            // Select your element using indexing.
+            var theme = document.getElementsByTagName('link')[0];
+  
+            // Change the value of href attribute 
+            // to change the css sheet.
+            if (theme.getAttribute('href') == 'StyleSheet.css') {
+                theme.setAttribute('href', 'Darkstyle.css');
+            } else {
+                theme.setAttribute('href', 'StyleSheet.css');
+            }
+			localStorage.setItem("theme", theme);
+        }
+		window.onload = _ =>
+ toggleTheme(
+  localStorage.getItem("theme") || "StyleSheet.css"
+ );
+    </script>
+
 </head>
 
 <body>
@@ -14,6 +36,7 @@
 	<a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true" target="_blank">Resume Copy</a>
 	<a href="traveling.html">Traveling</a>
 	<a href="contact.html">Contact Me</a>
+	<span style = "position: relative; top: 10px; left: 20px;"><button onclick="toggleTheme()">Switch</button></span>
 </div> 
 	<div class= "container">
 		<div class="header">
@@ -24,7 +47,7 @@
 			<hr>
 			<p> Hello! Nice to meet you all! My name is William Talbert, I am 25 years old and I was born and raised in NC.
 			I have an associates in Networking & Cyber security, and i am now finishing my bachelors in IT at WSSU. I work part time doing IT at a plastic surgery company and i
-			am currently doing an internship for Major Leauge Hacking, you can check out my current resume on my  <a href="academics.html">Academics</a> page, or a copy of my resume under <a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true target="_blank"">Resume Copy</a></p>
+			am currently doing an internship for Major Leauge Hacking, you can check out my current resume on my  <a href="academics.html">Academics</a> page, or a copy of my resume under <a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true" target="_blank">Resume Copy</a></p>
 			
 			<p>A little about me, is I am the youngest of three brothers, with the three of us being 40, 27, and 25. I have one dog named cooper who is featured on the right, he just turned 4 this year!
 			Some of my favorite hobbies
