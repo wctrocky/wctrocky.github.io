@@ -1,10 +1,7 @@
 body {
 	margin:0;
-	background-color: #e6ebef;
-}
-.dark-mode {
-  background-color: black;
-  color: white;
+	background-color: black;
+	color: white;
 }
 
 .container{
@@ -27,7 +24,7 @@ body {
 }
 .container div {
 	padding: 10px;
-	border:1px solid black;
+	border:1px solid red;
 	
 }
 .content-small{

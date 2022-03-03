@@ -24,15 +24,22 @@ window.onload = _ =>
 </head>
 
 <body>
- <div class="topnav">
+<div class="navbar">
 	<a class="active" href="index.html">Home</a>
-	<a href="academics.html">Academics</a>
-	<a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true" target="_blank">Resume Copy</a>
-	<a href="traveling.html">Traveling</a>
+  <div class="dropdown">
+    <button class="dropbtn">Academics
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="academics.html">Academics</a>
+	  <a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true" target="_blank">Resume Copy</a>
+    </div>
+  </div>
+  	<a href="traveling.html">Traveling</a>
 	<a href="contact.html">Contact Me</a>
-	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet('Darkstyle.css')">Dark Mode</button></span>
+  	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet('Darkstyle.css')">Dark Mode</button></span>
 	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet2('StyleSheet.css')">Light Mode</button></span>
-</div> 
+</div>
 	<div class= "container">
 		<div class="header">
 			<strong>Travels</strong>

@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <title>About me!</title>
-    <link rel="stylesheet" href="StyleSheet.css">
-		<script>
+    <link id="theme" link rel="stylesheet" href="StyleSheet.css">
+	<script>
 function swapStyleSheet(sheet){
   document.getElementById('theme').setAttribute('href', sheet);
   localStorage.setItem("sheet", sheet);
@@ -31,7 +31,7 @@ window.onload = _ =>
 	<a href="traveling.html">Traveling</a>
 	<a href="contact.html">Contact Me</a>
 	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet('Darkstyle.css')">Dark Mode</button></span>
-	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet('StyleSheet.css')">Light Mode</button></span>
+	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet2('StyleSheet.css')">Light Mode</button></span>
 </div> 
 	<div class= "container">
 		<div class="header">
