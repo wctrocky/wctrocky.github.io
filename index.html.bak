@@ -40,6 +40,7 @@ window.onload = _ =>
   	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet('Darkstyle.css')">Dark Mode</button></span>
 	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet2('StyleSheet.css')">Light Mode</button></span>
 </div>
+</div> 
 	<div class= "container">
 		<div class="header">
 			<strong>Welcome</strong>

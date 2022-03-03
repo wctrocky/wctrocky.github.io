@@ -27,7 +27,7 @@ window.onload = _ =>
 <div class="navbar">
 	<a class="active" href="index.html">Home</a>
   <div class="dropdown">
-    <button class="dropbtn">Academics
+    <button class="dropbtn"><a href="academics.html">Academics</a>
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
@@ -42,30 +42,31 @@ window.onload = _ =>
 </div>
 	<div class= "container">
 		<div class="header">
-			<strong>Welcome</strong>
+			<strong>Travels</strong>
 		</div>
-		<div class="content-large">
-			<p style="display:inline"><strong>Introduction</strong></p>
-			<hr>
-			<p> Hello! Nice to meet you all! My name is William Talbert, I am 25 years old and I was born and raised in NC.
-			I have an associates in Networking & Cyber security, and i am now finishing my bachelors in IT at WSSU. I work part time doing IT at a plastic surgery company and i
-			am currently doing an internship for Major Leauge Hacking, you can check out my current resume on my  <a href="academics.html">Academics</a> page, or a copy of my resume under <a href="https://docs.google.com/document/d/10nMaZ2l2ZZfdYNBszAS5lZ6jnAXVkz7r/edit?usp=sharing&ouid=100849804582132574138&rtpof=true&sd=true" target="_blank">Resume Copy</a></p>
-			
-			<p>A little about me, is I am the youngest of three brothers, with the three of us being 40, 27, and 25. I have one dog named cooper who is featured on the right, he just turned 4 this year!
-			Some of my favorite hobbies
-			include, reading hiking,traveling and taking fishing trips!</p>
-			
-			<p>I have also included some of my favorite photos from traveling around the US
-			under <a href="traveling.html">Traveling</a>.</p>
-			
-			<p>You can head over to my <a href="contact.html">Contact Me</a> page to see my points of contact &#38; availability for meetings!</p>
-			
+		<div class="content-medium-2">
+		<p style="display:inline"><strong>Summary</strong></p>
+		<hr>
+		<p>One of my favorite things to do is travel, I have been to roughly half the states in the US, as well as trips to the Bahamas for a cruise!</p>
+		<p>I usually try and take a trip every summer and see something new, I have posted a few pictures to the right, of my trips to Monument Valley, Niagara Falls, and the Grand Canyon</p>
+		<p>Outside of cruises, I haven't been outside of the states yet, but i would like to soon. Specifically two trips i plan to go on is one to Japan and a trip to France.</p>
 		</div>
-		<div class="content-small">
-		<img src="home.jpg" width = "400" height = "400" alt = "Group photo" class="center">
-		</div>
-		<div class="content-small">
-		<img src="cooper.jpg" width = "400" height = "400" alt = "Small dog" class="center">
+		<div class="content-medium">
+		<table>
+		<caption> These are from just a few of my trips!</caption>
+		<tr>
+		<td><img width="300" height="200" src ="niagra1.jpg" alt="puppy" class ="photoGrid"></td>
+		<td><img width="300" height="200" src ="niagra5.jpg" alt="puppy" class ="photoGrid"></td>
+		</tr>
+		<tr>
+		<td><img width="300" height="200" src ="niagra3.jpg" alt="puppy" class ="photoGrid"></td>
+		<td><img width="300" height="200" src ="niagra6.jpg" alt="puppy" class ="photoGrid"></td>
+		</tr>
+		<tr>
+		<td><img width="300" height="280" src ="monument1.jpg" alt="puppy" class ="photoGrid"></td>
+		<td><img width="300" height="280" src ="grand1.jpg" alt="puppy" class ="photoGrid"></td>
+		</tr>
+		</table>
 		</div>
 		<div class = "footer">
 			<footer>
@@ -74,9 +75,9 @@ window.onload = _ =>
 				&nbsp;&nbsp;&nbsp;
 				<a href="https://www.linkedin.com/in/william-talbert-3795a220a" target="_blank">
 				<img alt="LinkedIn" src="LinkedIN.jpg" width="50" height="50"></a>
-				 <address>
-			Written by <a href="mailto:webmaster@example.com">William Talbert</a>.<br>
-			</address> 
+				<address>
+					Written by <a href="mailto:webmaster@example.com">William Talbert</a>.<br>
+				</address> 
 			</footer> 
 		</div>
 	</div>
