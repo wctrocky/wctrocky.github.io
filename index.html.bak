@@ -5,20 +5,17 @@
     <meta charset="utf-8">
     <title>About me!</title>
     <link id="theme" link rel="stylesheet" href="StyleSheet.css">
-	<script>
-function swapStyleSheet(sheet){
-  document.getElementById('theme').setAttribute('href', sheet);
-  localStorage.setItem("sheet", sheet);
-}
-function swapStyleSheet2(sheet){
-  document.getElementById('theme').setAttribute('href', sheet);
-  localStorage.setItem("sheet", sheet);
+    <script>
+function darkmode() {
+  const wasDarkmode = localStorage.getItem('darkmode') === 'true';
+  localStorage.setItem('darkmode', !wasDarkmode);
+  const element = document.body;
+  element.classList.toggle('dark-mode', !wasDarkmode);
 }
 
-window.onload = _ =>
- swapStyleSheet(
-  localStorage.getItem("sheet") || "StyleSheet.css"
- );
+function onload() {
+  document.body.classList.toggle('dark-mode', localStorage.getItem('darkmode') === 'true');
+}
     </script>
 
 </head>
@@ -37,10 +34,8 @@ window.onload = _ =>
   </div>
   	<a href="traveling.html">Traveling</a>
 	<a href="contact.html">Contact Me</a>
-  	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet('Darkstyle.css')">Dark Mode</button></span>
-	<span style = "position: relative; top: 10px; left: 20px;"><button class="colormode" onclick="swapStyleSheet2('StyleSheet.css')">Light Mode</button></span>
+	<a role="button" onclick="darkmode()">Dark Mode</a></button>
 </div>
-</div> 
 	<div class= "container">
 		<div class="header">
 			<strong>Welcome</strong>

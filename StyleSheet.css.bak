@@ -2,7 +2,7 @@ body {
 	margin:0;
 	background-color: #e6ebef;
 }
-.dark-mode {
+.dark-mode{
   background-color: black;
   color: white;
 }
@@ -27,7 +27,7 @@ body {
 }
 .container div {
 	padding: 10px;
-	border:1px solid black;
+	border:1px solid red;
 	
 }
 .content-small{
@@ -75,6 +75,9 @@ table, th, td {
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+  	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 }
 
 /* Links inside the navbar */
@@ -140,7 +143,7 @@ table, th, td {
   display: block;
 }
 .active {
-  background-color: #red;
+  background-color: red;
 }
 .center {
   display: block;

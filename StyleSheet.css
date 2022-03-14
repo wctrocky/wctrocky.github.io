@@ -2,7 +2,7 @@ body {
 	margin:0;
 	background-color: #e6ebef;
 }
-.dark-mode {
+.dark-mode{
   background-color: black;
   color: white;
 }
@@ -27,7 +27,7 @@ body {
 }
 .container div {
 	padding: 10px;
-	border:1px solid black;
+	border:1px solid red;
 	
 }
 .content-small{
